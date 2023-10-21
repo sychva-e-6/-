@@ -1,0 +1,6 @@
+x=int(input("x="))
+y=int(input("y="))
+if ((x*x+y*y<=25)and(x>0))or((x*x+y*y<=9)and(y>-x-3)):
+   print("точка принадлежит")
+else:
+ print("точка не принадлежит")
